@@ -28,8 +28,8 @@
                         }
                     ],
                     "quicParams": {
-                        "congestion": "brutal",
-                        "brutalUp": "100 mbps",
+                        "congestion": "brutal", // 可选改为 bbr
+                        "brutalUp": "30 mbps",
                         "brutalDown": "100 mbps"
                     }
                 }
