@@ -9,7 +9,7 @@
                 "version": 2,
                 "clients": [
                     {
-                        "auth": "114514"
+                        "auth": "114514" // Hysteria2 密码
                     }
                 ]
             },
@@ -17,7 +17,7 @@
                 "network": "hysteria",
                 "security": "tls",
                 "tlsSettings": {
-                    "serverName": "114514",
+                    "serverName": "114514", // SNI
                     "alpn": [
                         "h3"
                     ], // 这里需要显式写 h3 ，请注意。
@@ -27,7 +27,7 @@
                             "certificateFile": "/114514/cert.pem",
                             "keyFile": "/114514/key.pem"
                         }
-                    ]
+                    ] // 证书设置
                 },
                 "hysteriaSettings": {
                     "version": 2
@@ -37,7 +37,7 @@
                         {
                             "type": "salamander",
                             "settings": {
-                                "password": "114514"
+                                "password": "114514" // salamander 混淆密码
                             }
                         }
                     ], // salamander 混淆，不需要可以删除此项
