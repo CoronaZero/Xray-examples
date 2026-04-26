@@ -28,7 +28,7 @@
                         }
                     ],
                     "quicParams": {
-                        "congestion": "brutal", // 可选改为 bbr
+                        "congestion": "bbr", // 可改为 brutal，若如此做请自行修改下面宽带
                         "brutalUp": "30 mbps",
                         "brutalDown": "100 mbps"
                     }
